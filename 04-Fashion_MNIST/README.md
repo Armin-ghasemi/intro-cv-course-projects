@@ -1,7 +1,7 @@
 # Fashion-MNIST Classification: MLP vs. CNN
 
 ![University](https://img.shields.io/badge/University-University%20of%20Tehran-red)
-![Course](https://img.shields.io/badge/Course-Computer%20Vision-blue)
+![Course](https://img.shields.io/badge/Course-Introduction%20to%20Computer%20Vision-blue)
 ![Assignment](https://img.shields.io/badge/Assignment-HW4-green)
 
 An end-to-end Deep Learning project using **PyTorch** to classify clothing items from the Fashion-MNIST dataset. This project explores and compares two fundamental neural network architectures: a standard Multi-Layer Perceptron (MLP) and a Convolutional Neural Network (CNN), highlighting the importance of spatial feature extraction in Computer Vision.
@@ -41,7 +41,7 @@ The confusion matrices reveal that visually similar classes (like Shirt vs. T-sh
 
 | Baseline: MLP Confusion Matrix | Improved: CNN Confusion Matrix |
 | :---: | :---: |
-| ![MLP CM](https://raw.githubusercontent.com/Armin-ghasemi/intro-cv-course-projects/main/04-Fashion_MNIST/assets/showcase/mlp_cm.png) | ![CNN CM](https://raw.githubusercontent.com/Armin-ghasemi/intro-cv-course-projects/main/04-Fashion_MNIST/assets/showcase/cnn_cm.png) |
+| ![MLP CM](https://raw.githubusercontent.com/Armin-ghasemi/intro-cv-course-projects/main/04-Fashion_MNIST/assets/showcase/mlp_cm_crop.png) | ![CNN CM](https://raw.githubusercontent.com/Armin-ghasemi/intro-cv-course-projects/main/04-Fashion_MNIST/assets/showcase/cnn_cm_crop.png) |
 
 **2.2 Prediction Samples (Correct vs. Incorrect):**
 Visualizing the predictions gives us an intuition about the models' behavior. Even when the CNN fails, its mistakes are often more "reasonable" (e.g., confusing two very similar tops) compared to the MLP. The images below display 5 correct (top row) and 5 incorrect (bottom row) predictions for each model.
